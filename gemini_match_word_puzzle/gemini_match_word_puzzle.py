@@ -207,6 +207,7 @@ def main() -> int:
                 first_tile.open()
                 second_tile.open()
 
+        print("You completed the puzzle!")
         print("Enter \"Y\" for yes.")
         print("Enter anything else for no.")
         continue_playing: str = input("Do you want to continue playing \"Gemini Match Word Puzzle\"? ")
